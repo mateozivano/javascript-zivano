@@ -6,17 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <div>
-        <h1>
-            <p>Bienvenido al simulador de creditos</p>
-        </h1>
-        <p>Cantidad a prestar <input id="cantidad" type="number"></p>
-        <p>interes<input id="interes" type="number"></p>
-        <p>Valor total del interes<input id="interes_total" type="number"></p>
-        <p>Costo total del credito <input id="costo_total" type="number"></p>
+    <div class="container">
+        <div class="fondoHeader"><h1 class="col-md-12 titulo">
+            <p>EasyCréditos</p>
+        </h1></div>
+        <h3>Bienvenido a nuestro calculador de préstamos</h3>
+        <p class="col-md-4">Monto a prestar <input id="cantidad" type="number"></p>
+        <p class="col-md-4">interes<input id="interes" type="number"></p>
+        <p class="col-md-4">Valor total del interes<input id="interes_total" type="number"></p>
+        <p class="col-md-4">Costo total del credito <input id="costo_total" type="number"></p>
         <button id="btn">Calcular</button>
     </div>
     <script src="./index.js"></script>
