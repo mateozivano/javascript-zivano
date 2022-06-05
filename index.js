@@ -76,7 +76,8 @@ btn.addEventListener('click', function () {
 });
 
 //json
-
+/*
+let btn2 = document.getElementById("btn2");
 let json = localStorage.getItem("calculo")
 console.log(typeof json);
 console.log(json)
@@ -86,4 +87,14 @@ btn2.addEventListener("click", function() {
     alert("cantidad deseada:", json.cantidad)
     
 })
+*/
 
+//sweetalert
+
+Swal.fire({
+    title: '¡Bienvenido a nuestra pagina!',
+    text: "Calcule sus créditos de una manera fiable",
+    icon: 'info',
+    confirmButtonColor: '#3085d6',
+    confirmButtonText: 'Ok!'
+  })
